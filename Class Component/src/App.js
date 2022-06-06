@@ -1,10 +1,11 @@
 import './App.css';
+import Car from './components/Car'
 
 function App() {
   return (
     <div className="App">
 
-      <h2>This is a Test ! </h2>
+      <Car/>
 
     </div>
   );
