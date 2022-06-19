@@ -1,13 +1,11 @@
-import { Router } from 'react-router-dom';
-import './App.css';
-import Navbar from './Components/navbar';
-import { BrowserRouter as Router } from 'react-router-dom';
+import React from 'react';
+// import Counter from './Components/Counter';
+import Myarray from './Components/Myarray';
 
 function App() {
   return (
-    <Router>
-      <Navbar/>
-    </Router>
+    // <Counter/>
+    <Myarray/>
   );
 }
 
